@@ -95,6 +95,34 @@
     ]
   },
   "objects": {
+    "501951cd-2d04-4431-8315-e11aa350260d": {
+      "components": {},
+      "geometry": null,
+      "id": "501951cd-2d04-4431-8315-e11aa350260d",
+      "imageTarget": {
+        "name": "preview"
+      },
+      "material": null,
+      "name": "Marcador · preview",
+      "order": 5.5,
+      "parentId": "bd102250-253a-4475-a70c-935aae09a98b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
     "78bbd48e-f947-4a70-872d-ac9775d19601": {
       "components": {
         "615fa819-0ebe-4e4d-a92f-afc2516c34a7": {
@@ -421,6 +449,74 @@
         1,
         1
       ]
+    },
+    "eeb2d981-ecb8-49bd-8ea6-41dcdb590812": {
+      "components": {
+        "6988ec4a-02f7-4372-8a3e-161c9d28dbd3": {
+          "id": "6988ec4a-02f7-4372-8a3e-161c9d28dbd3",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "eeb2d981-ecb8-49bd-8ea6-41dcdb590812",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/cubev2.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5
+      },
+      "name": "cubev2",
+      "order": 0.35616980277531907,
+      "parentId": "501951cd-2d04-4431-8315-e11aa350260d",
+      "position": [
+        0,
+        0,
+        0.466
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        1.368,
+        1.368,
+        1.368
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
     },
     "fe8ea7be-c278-4b36-a459-a3af2a5489e4": {
       "components": {},
